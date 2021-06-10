@@ -1,0 +1,12 @@
+{
+  "name": "image-shrink-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "optimize image (.png) files with 90% quality and rewrite to the original location",
+  "bin": "./index.js",
+  "dependencies": {
+    "imagemin": "7",
+    "imagemin-pngquant": "^9.0.2"
+  }
+}
